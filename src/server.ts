@@ -1,8 +1,5 @@
 import mongoose from 'mongoose';
 import app from './app';
-import path from 'path';
-import fs from 'fs';
-import Question from './models/Question';
 
 const PORT = process.env.PORT || 4000;
 const MONGO_URI = process.env.MONGO_URI || '';
