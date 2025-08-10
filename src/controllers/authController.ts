@@ -4,7 +4,7 @@ import bcrypt from 'bcryptjs';
 import { generateOTP } from '../utils/otp';
 import { sendEmail } from '../utils/email';
 import jwt from 'jsonwebtoken';
-import * as crypto from 'crypto';
+import crypto from 'crypto';
 
 const ACCESS_SECRET = process.env.JWT_ACCESS_SECRET || 'accesssecret';
 const REFRESH_SECRET = process.env.JWT_REFRESH_SECRET || 'refreshsecret';
