@@ -8,6 +8,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
-    // "types": ["node"]
-  }
+    "types": ["node"]
+  },
+  "include": ["src/**/*"]
 }
