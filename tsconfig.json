@@ -8,7 +8,6 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
-    "types": ["node", "express", "cors", "jsonwebtoken", "nodemailer"],
     "typeRoots": [ "./node_modules/@types", "../node_modules/@types", "../../node_modules/@types" ]
   },
   "include": ["src/**/*.ts"],
