@@ -4,6 +4,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import authRoutes from './routes/authRoutes';
 import assessmentRoutes from './routes/assessmentRoutes';
+import adminQuestionRoutes from './routes/adminQuestionRoutes';
 
 
 dotenv.config();
@@ -18,5 +19,5 @@ app.use(express.json());
 
 app.use('/api/auth', authRoutes);
 app.use('/api/assessment', assessmentRoutes);
-
+app.use('/api/admin', adminQuestionRoutes);
 export default app;
