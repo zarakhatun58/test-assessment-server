@@ -15,4 +15,3 @@ mongoose_1.default.connect(MONGO_URI)
     .catch(err => {
     console.error('MongoDB connection error:', err);
 });
-//# sourceMappingURL=server.js.map

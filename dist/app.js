@@ -22,4 +22,3 @@ app.use('/api/auth', authRoutes_1.default);
 app.use('/api/assessment', assessmentRoutes_1.default);
 app.use('/api/admin', adminQuestionRoutes_1.default);
 exports.default = app;
-//# sourceMappingURL=app.js.map
